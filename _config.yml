@@ -7,7 +7,7 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
+permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
@@ -17,7 +17,7 @@ markdown: kramdown
 title:       "Marita Dante homepage"
 keywords:    "Marita Dante, maritadante, marita, dante"
 description: "Sito personale di Marita Dante"
-source_link: "https://maritadante.it"
+source_link: "https://maritadante.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: 
