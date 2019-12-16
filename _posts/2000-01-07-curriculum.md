@@ -1,19 +1,32 @@
 ---
 title: "Curriculum"
-bg: "#2e2e2e"
-color: white
+bg: white
+color: black
 icon: img/icone/curriculum.jpg
 ---
 
-## Curriculum
+## Curriculum professionale
 
 #### Da I monaci matematici
 Marita Dante è nata a Vicenza, città dove, a tutt'oggi, vive e lavora. Ha iniziato giovanissima la carriera d'insegnante nella secondaria superiore, incarico che ha lasciato per dedicarsi alta docenza universitaria, presso l'Università degli Studi di Padova, ed all'attività di scrittrice. Specializzata in didattica della Matemática, da sempre si occupa di divulgare questo sapere sia con numerosi corsi di formazione per gli insegnanti che ha tenuto sia attraverso le opere che ha scritto. Per lungo tempo, ha svolto l'attivita di revisore critico di libri di testo per numerose case editrici. Ciò le ha permesso di riflettere su come insegnare matematica sia un'attività difficile per la distanza di questo sapere dalla vita reale. I suoi scritti vogliono allora essere un veicolo per catturare l'altrui interesse e susciatare il desiderio di apprendere.
 
+---
+
 In questo libro, "I monaci matematici e l'enigma del nove", i giochi di magia dei monaci si trasformano in un cavallo di troia per far entrare questo difficile sapere nella conoscenza di ciascuno. Nel 2010 ha pubblicato il libro "Zapping Arte e Matematica", edito da La Linea Editrice. Nel 2014 è uscito il volume "Matematica Ragionata: Matematica di base per l'Università", edito da La Linea Editrice.
+
+## Curriculum artistico
 
 #### Da https://matematicaragionata.wordpress.com/curriculum/
 Marita Dante, residente a Vicenza, è stata insegnante nella scuola secondaria superiore per la disciplina Matematica. Ha insegnato nei precorsi di matematica della Facoltà di Ingegneria dell’Università degli Studi di Padova dall’anno 2001 all’anno 2016. Ha insegnato nel corso Colloquia Mathematica presso la Casa di Cultura Popolare di Vicenza nel 2014. Ha insegnato in due corsi per l’abilitazione all’insegnamento, modulo specifico classe di concorso A047 Matematica, il primo nel 1999/2000 ed il secondo nel 2001/2002. Ha superato il Concorso indetto dalla Scuola Regionale Interateneo di Specializzazione (SSIS) per la supervisione del tirocinio. Ha ricevuto incarico per docenza nei corsi IFTS “Tecnico Superiore per l’Energia, l’Ambiente e la Sicurezza” e “Tecnico Superiore per l’Industrializzazione del Prodotto e del Processo” relativamente al modulo “Dati e previsioni”. Ha conseguito un master in “Orientamento alle Scelte Scolastico Professionali” con il professor S. Soresi. E’ formatore in “Area di Progetto”. Ha collaborato con numerose case editrici dal 1984 in poi, ultima in ordine di tempo RCS mediagroup – ETAS (2012), per la revisione critica di libri di testo di Matematica e produzione di scritti su specifiche tematiche relative alla materia in oggetto. Per contratto tali lavori non permettono l’inclusione tra gli autori. Pubblicazione: “I monaci matematici e l’enigma del nove” – Edizioni Papergraf, 2016. Pubblicazione: “Matematica Ragionata _ Matematica di base per l’Università” – La Linea Editrice, 2014. Pubblicazione: “Zapping _ arte e matematica” – La Linea Editrice, 2010.
 
+## Pubblicazioni
+
 #### Da Matematica ragionata
 Marita Dante insegna dal 2001 nei precorsi di matematica della Facoltà di Ingegneria dell'Università degli Studi di Padova. Ha insegnato sino al 2010 nella scuola secondaria superiore, per la disciplina Matematica.Ha tenuto due corsi per l'abilitazione all'insegnamento, classe di concorso A047 Matematica, il primo nel 1999/2000 ed il secondo nel 2001/2002. Ha superato il Concorso indetto dalla Scuola Regionale Interateneo di Specializzazione (SSIS) per la supervisione del tirocinio nell'agosto 2001. Ha ricevuto nel 2006 e 2009 incarico per docenza del modulo ``Dati e previsioni'' nei corsi IFTS ``Tecnico Superiore per l'Energia, l'Ambiente e la Sicurezza'' e ``Tecnico Superiore per l'Industrializzazione del Prodotto e del Processo''. Ha conseguito un master in ``Orientamento alle Scelte Scolastico Professionali'' (2003) con il professor S. Soresi ed è formatore in ``Area di Progetto''. Collabora dal 1984 con numerose case editrici per la revisione critica di libri di testo di Matematica. Ha pubblicato nel 2010 il libro \emph{``ZAPPING -- arte e matematica''}, La Linea Editrice. %, \textsc{isbn} 9788820362553.
+
+## Articoli
+
+1. cacca
+2. merda
+3. sedere
+

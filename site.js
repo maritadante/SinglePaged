@@ -91,5 +91,6 @@ $(document).ready(function (){
         }
 	});
 
+    $(".carosello").slick();
 });
 
