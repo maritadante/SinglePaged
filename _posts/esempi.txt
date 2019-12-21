@@ -1,8 +1,31 @@
+{% capture markdown %}
+* Lorem ipsum dolor sit amet
+* Consectetur adipiscing elit
+* Integer molestie lorem at massa
+6. Faucibus porta lacus fringilla vel
+7. Aenean sit amet erat nunc
+8. Eget porttitor lorem
+{% endmarkdown %}
+{% endcapture %}
+{{ markdown | markdownify }}
+
+
 [Todo]
 
-round divider animation instead of img
+fix nav
 
-full highlight of menu
+link to portfolio of images / art
+
+Foto mamma phone album
+facebook luigi
+facebook monaci
+da mamma archivio
+luigi's dump
+
+
+Alexa take a picture
+
+
 
 
   // Carrousel settings

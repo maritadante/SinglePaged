@@ -30,3 +30,6 @@ Marita Dante insegna dal 2001 nei precorsi di matematica della Facoltà di Ingeg
 2. merda
 3. sedere
 
+Garatti
+articolista contributi a magia moderna
+
