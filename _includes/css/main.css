@@ -153,6 +153,8 @@ nav {
   left:0;
   background-color:#2e2e2e;
   background-image:url(img/bgnoise.png);
+  border-bottom: 1px solid #555;
+  transition: top 0.4s;
 }
 
 nav ul {
