@@ -299,6 +299,26 @@ nav ul li:hover, nav ul li.active {
   text-align: center;
 }
 
+.descrizione-libro h4, .descrizione-libro h6 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.descrizione-libro p:first-of-type {
+    margin-top: 20px;
+}
+
+.descrizione-libro blockquote {
+    width: 70%;
+    margin: 1em 3em;
+    padding-top: 0px;
+}
+
+.descrizione-libro blockquote p:first-of-type {
+    margin-top: 0px;
+}
+
 div .slick-slide {
   text-align: center;
 }
