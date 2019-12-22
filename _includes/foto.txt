@@ -1,0 +1,10 @@
+img/foto/aurelia1.jpg | 1000 Miglia a Vicenza, con Luigi Bianco | 29 Settembre, 2019
+img/foto/aurelia2.jpg | 1000 Miglia a Vicenza, con Luigi Bianco | 29 Settembre, 2019
+img/foto/bellamamma.jpg | |
+img/foto/cavallo.jpg | Fiera Franca di Gazzo Padovano | 13 Ottobre, 2019
+img/foto/fiori.jpg | Primavera |
+img/foto/ilmondoemio.jpg | Cima Vezzena | 14 Agosto, 2019
+img/foto/montagna.jpg | | 27 Ottobre, 2019
+img/foto/rotonda.jpg | Villa La Rotonda, Vicenza | 26 Novembre, 2019
+img/foto/scultura.jpg | Ballerina Daliniana | 10 Settembre, 2019
+img/foto/vicenza.jpg | Fuochi in Basilica, Vicenza | 10 Novembre, 2019

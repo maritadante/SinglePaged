@@ -16,6 +16,14 @@ Tutti i diritti riservati.
 * [Portfolio theme](http://bogoli.github.io/-folio/)
 * [Prologue theme](https://chrisbobbe.github.io/jekyll-theme-prologue)
 
+## TODOs
+
+* transform as much as possible into markdown (starting with sections likely to be edited often)
+* host and present high resolution images for art and photos
+* improve rendering on mobile (use fluid for book divs, responsive breaks for sliders -- see examples below)
+* add mini, single page landing sites for each book
+* for "Matematica Ragionata", add questions and answers with [accordions](https://raw.githubusercontent.com/cesium/codeweek15/gh-pages/_posts/2000-01-02-activities.md)
+
 ## Documentation
 
 * Markdown cheatsheets: [soshace](https://dev.to/soshace/markdown-cheat-sheet-definitive-guide-to-markdown-markdown-resources-n15), [adam](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [sindresorhus](https://sindresorhus.com/github-markdown-css/), [github](https://guides.github.com/features/mastering-markdown/)
@@ -31,20 +39,6 @@ Tutti i diritti riservati.
 
 ## Examples
 
-#### Markdownify
-
-```markdown
-{% capture markdown %}
-* Lorem ipsum dolor sit amet
-* Consectetur adipiscing elit
-* Integer molestie lorem at massa
-6. Faucibus porta lacus fringilla vel
-7. Aenean sit amet erat nunc
-8. Eget porttitor lorem
-{% endcapture %}
-{{ markdown | markdownify }}
-```
-
 #### Dividers, jump to section, add style to markdown from Liquid
 
 ```markdown
@@ -55,29 +49,6 @@ Tutti i diritti riservati.
 {: .text-purple}
 
 {: style="margin-top:100px;"}
-```
-
-#### Liquid programming
-
-```html
-{% capture icon_links %}
-https://maritadante.it|home,
-mailto:marita.dante@gmail.com|at,
-tel:+390444542197|phone,
-tel:+393473194073|mobile,
-https://www.facebook.com/bianco.luigi.9|facebook,
-https://github.com/maritadante|github
-{% endcapture %}
-
-{% assign icon_links = icon_links | split: "," -%}
-{%- for icon_link_string in icon_links -%}
-{%- assign icon_link = icon_link_string | split: "|" -%}
-<a href="{{icon_link[0]}}">
-<span class="fa-stack fa-lg">
-<i class="fa fa-circle fa-stack-2x"></i>
-<i class="fa fa-{{icon_link[1]}} fa-stack-1x" style="color: white;"></i>
-</span></a>
-{%- endfor %}
 ```
 
 #### Responsive sliders
@@ -104,11 +75,3 @@ user                  |      group     |others
 7                     |       5        |  4
 read + write + execute | read + execute | read
 ```
-
-## TODOs
-
-* transform as much as possible into markdown (starting with sections likely to be edited often)
-* host and present high resolution images for art and photos
-* improve rendering on mobile (use fluid for book divs, responsive breaks for sliders -- see examples)
-* add minisites for each book
-* for "Matematica Ragionata", add questions and answers with [accordions](https://raw.githubusercontent.com/cesium/codeweek15/gh-pages/_posts/2000-01-02-activities.md)

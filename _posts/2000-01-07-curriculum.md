@@ -33,3 +33,29 @@ Marita Dante insegna dal 2001 nei precorsi di matematica della Facoltà di Ingeg
 Garatti
 articolista contributi a magia moderna
 
+
+
+
+
+Conferenze
+•	"La Matematica nascosta nell'Arte e nella Natura" associazione Demetra donne in aiuto
+•	“Il mistero della MateMagia”: 4 date, https://www.spettacolidimistero.it/eventi/
+o	sabato 09.11.2019 a Marano Vicentino, Auditorium comunale
+o	November 30, 2018, Malo, Sala Consigliare San Bernardino
+o	Marano Vicentino _ Auditorium, via Marconi n°9
+•	Presentazione del libro I monaci matematici!, 7 aprile alla Biblioteca Civica Di Thiene a quest'incontro con il prof. Mascolo -- Festival dell'Illusionismo "Città di Thiene"
+
+Curriculum professionale
+•	Riceve premio Romeo Garatti 20 ottobre 2018 Centro Congressi Alexander Palace di Abano Terme -- "Premio Romeo Garatti"
+•	Collebora con Magia Moderna
+
+Curriculum artistico	
+•	"Art Walk Vicenza" Civette di Marita!
+•	Premio Acqui, XIV Biennale Internazionale per l'Incisione, 15 giugno 2019 a Villa Ottolenghi Wedekind,
+
+Articoli su Marita
+•	Premio Romeo Garatti http://www.clubmagicoitaliano.it/magia-modernaa/premio-romeo-garatti
+•	"La matematica nascosta nell'arte e nella natura" conferenza di Marita Dante - City Corner https://thiene.citycorner.it/evento/la-matematica-nascosta-nellarte-nella-natura-conferenza-marita-dante/
+•	Il Veneto tra magia e matematica con Marita Dante a Marano – VicenzaPiù https://www.vicenzapiu.com/leggi/il-veneto-tra-magia-e-matematica-con-marita-dante-a-marano/
+•	Il Veneto tra magia e matematica con Marita Dante a Marano - L'altra Vicenza https://laltravicenza.it/il-veneto-tra-magia-e-matematica-con-marita-dante-a-marano/
+

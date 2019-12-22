@@ -206,7 +206,7 @@ nav ul li:hover, nav ul li.active {
   width: 90%;
 }
 
-.bottone {
+#libri .bottone {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -222,6 +222,17 @@ nav ul li:hover, nav ul li.active {
 .bottone:hover {
   border: 1px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.p-home img {
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+.p-home a {
+  text-decoration:none;
 }
 
 .p-annunci .container {
