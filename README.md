@@ -7,6 +7,7 @@ Tutti i diritti riservati.
 
 * Sito: [maritadante.it](https://maritadante.it/)
 * Github: [home](https://github.com/maritadante), [sito](https://github.com/maritadante/maritadante.github.io), [template](https://github.com/t413/SinglePaged)
+* [Guida Markdown](https://informaticabrutta.it/markdown-guida/)
 * [Github pages documentation](https://help.github.com/en/github/working-with-github-pages)
 * [Matematica Ragionata wordpress](https://matematicaragionata.wordpress.com/curriculum)
 
