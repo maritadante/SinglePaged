@@ -9,3 +9,4 @@ img/foto/rotonda.jpg | Villa La Rotonda, Vicenza | 26 Novembre, 2019
 img/foto/scultura.jpg | Ballerina Daliniana | 10 Settembre, 2019
 img/foto/vicenza.jpg | Fuochi in Basilica, Vicenza | 10 Novembre, 2019
 img/foto/IMG_8771.JPG | Matita & Gigio | 18 Gennaio, 2020
+img/foto/DSC00252.JPG | Malo | 22 Novembre, 2019
