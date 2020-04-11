@@ -3,3 +3,4 @@ img/arte/gufo.jpg | Gufo, 2018. *Maniera nera, collezione L'Officina Arte Contem
 img/arte/libellula.jpg | Libellula, 2016. *Stampa a torchio.*
 img/arte/paludamento.jpg | Paludamenti, 2015. *Stampa a torchio.*
 img/arte/polveredineve.jpg | Polvere di neve, 2018. *Stampa a torchio.*
+img/arte/Gesù La_Via.jpg | Gesù La_Via, 2020. *Pastelli su carta, collezione "Corona_Gesù".*
