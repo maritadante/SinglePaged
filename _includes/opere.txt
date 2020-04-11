@@ -5,3 +5,4 @@ img/arte/paludamento.jpg | Paludamenti, 2015. *Stampa a torchio.*
 img/arte/polveredineve.jpg | Polvere di neve, 2018. *Stampa a torchio.*
 img/arte/Gesù La_Via.jpg | Gesù La_Via, 2020. *Pastelli su carta, collezione "Corona_Gesù".*
 img/arte/Gesù La_Verità.jpg | Gesù La_Verità, 2020. *Pastelli su carta, collezione "Corona_Gesù".*
+img/arte/Gesù La_Vita.jpg | Gesù La_Vita, 2020. *Grafite su carta sottile e traslucida, collezione "Corona_Gesù".*
