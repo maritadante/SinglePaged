@@ -1,6 +1,8 @@
 img/arte/Linocut1.JPG | Linocut "Il Mito", 2017. *linoleografia su carta.*
 img/arte/Linocut2.JPG | Linocut "Le ambre della principessa", 2017. *linoleografia su carta.*
+img/arte/Presenze.jpg | Presenze, 2018. *Acquaforte, doppia battuta.*
 img/arte/Gufetti.JPG | Gufetti ad "ArtWalk", 2018. *Acquaforte su carta.*
+img/arte/Polvere di neve.jpg | Polvere di neve, 2018. *Acquatinta su lastra di alluminio (no toxic).*
 img/arte/gufo.jpg | Gufo, 2018. *Maniera nera, collezione L'Officina Arte Contemporanea.*
 img/arte/libellula.jpg | Libellula, 2016. *Stampa a torchio.*
 img/arte/paludamento.jpg | Paludamenti, 2015. *Stampa a torchio.*
