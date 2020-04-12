@@ -1,4 +1,4 @@
-img/arte/Gufo.jpg | Gufo, 2012. *Maniera nera, collezione L'Officina Arte Contemporanea.*
+img/arte/Gufo sostituito.jpg | Gufo, 2012. *Maniera nera, collezione L'Officina Arte Contemporanea.*
 img/arte/Owl.jpg | Owl, 2014. *Puntasecca su plexiglass.*
 img/arte/Linocut1.JPG | Linocut "Il Mito", 2017. *linoleografia su carta.*
 img/arte/Linocut2.JPG | Linocut "Le ambre della principessa", 2017. *linoleografia su carta.*
