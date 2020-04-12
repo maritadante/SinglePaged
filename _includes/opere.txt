@@ -4,10 +4,10 @@ img/arte/Owl.jpg | Owl, 2014. *Puntasecca su plexiglass.*
 img/arte/Linocut1.JPG | Linocut "Il Mito", 2017. *linoleografia su carta.*
 img/arte/Linocut2.JPG | Linocut "Le ambre della principessa", 2017. *linoleografia su carta.*
 img/arte/Fossili.jpg | Fossili, 2018. *Acquatinta su lastra di alluminio (no toxic).*
-img/arte/Nut.jpg | Nut, 2018. *Acquaforte e acquatinta su lastra di alluminio, selezionata alla Biennale del Premio Acqui.*
+img/arte/Nut.jpg | Nut, 2018. *Acquaforte e acquatinta su lastra di alluminio.*
 img/arte/Presenze.jpg | Presenze, 2018. *Acquaforte, doppia battuta.*
 img/arte/Gufetti.JPG | Gufetti ad "ArtWalk", 2018. *Acquaforte su carta.*
-img/arte/Polvere di neve.jpg | Polvere di neve, 2018. *Acquatinta su lastra di alluminio (no toxic).*
+img/arte/Polvere di neve.jpg | Polvere di neve, 2018. *Acquatinta su lastra di alluminio (no toxic), selezionata alla Biennale del Premio Acqui.*
 img/arte/Gesù La_Via.jpg | Gesù La_Via, 2020. *Pastelli su carta, collezione "Corona_Gesù".*
 img/arte/Gesù La_Verità.jpg | Gesù La_Verità, 2020. *Pastelli su carta, collezione "Corona_Gesù".*
 img/arte/Gesù La_Vita.JPG | Gesù La_Vita, 2020. *Grafite su carta sottile e traslucida, collezione "Corona_Gesù".*
