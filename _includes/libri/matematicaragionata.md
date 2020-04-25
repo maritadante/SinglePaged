@@ -9,7 +9,9 @@ Invalsi, all’esame di Stato e propedeutiche all’accesso a facoltà scientifi
 Il volume “Matematica Ragionata” è consigliato nella pagina del Pre-corso on-line di Calcolo della
 Scuola di Ingegneria dell’Università degli Studi di Padova.
 
-In breve tempo lo studente è in grado di:
+Con “Matematica Ragionata” in breve tempo lo studente sarà in grado di:
 * conoscere i contenuti dei quesiti realmente assegnati ed esercitarsi su questi ultimi;
 * ampliare e consolidare le conoscenze di matematica di base e rivisitarle da un punto di vista superiore;
 * acquisire strategie utili per rispondere velocemente ai quesiti a risposta multipla e superare così i test con successo!
+Altre news nel sito
+https://matematicaragionata.wordpress.com/
