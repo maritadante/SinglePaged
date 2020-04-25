@@ -15,4 +15,4 @@ Con “Matematica Ragionata” in breve tempo lo studente sarà in grado di:
 * acquisire strategie utili per rispondere velocemente ai quesiti a risposta multipla e superare così i test con successo!
 
 Altre news nel sito
-**https://matematicaragionata.wordpress.com**
+**https://matematicaragionata.wordpress.com/**
