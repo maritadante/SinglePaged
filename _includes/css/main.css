@@ -295,10 +295,6 @@ nav ul li:hover, nav ul li.active {
     font-family: 'Rock Salt', cursive;
 }
 
-.p-interventi .container {
-  text-align: center;
-}
-
 .descrizione-libro h4, .descrizione-libro h6 {
     margin: 0px;
     padding: 0px;
