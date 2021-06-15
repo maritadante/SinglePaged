@@ -206,6 +206,76 @@ nav ul li:hover, nav ul li.active {
   width: 90%;
 }
 
+#minisito-libro img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  text-align: center;
+  margin: 15px 25px 25px 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#minisito-libro h2 {
+  margin-bottom: 5px;
+}
+
+
+#minisito-libro a {
+  text-decoration:none;
+}
+
+#minisito-libro .bottone {
+  background-color: #272929;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#minisito-libro .bottoneverde {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottone:hover {
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.torna-al-sito
+{
+  position:fixed;
+  color:#ffc03e;
+  text-decoration:none;
+  font-size:22px;
+  text-align:center;
+  min-width:110px;
+  line-height:60px;
+  margin:0px 0px 0px 30px;
+  padding:0;
+}
+
 #libri .bottone {
   background-color: #4CAF50;
   border: none;

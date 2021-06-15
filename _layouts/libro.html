@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+	<meta name="keywords" content="{{ site.keywords }}">
+	<meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="combo.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+  {% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+</head>
+<body>
+  <div id="minisito-libro">
+
+    <nav id="nav-menu">
+    <a class="torna-al-sito" href="https://maritadante.it">MARITADANTE.IT</a>
+    <ul>
+        <li class="p-{{id}}"><a href="#{{id}}">Acquista</a></li>
+        <li><a href="https://maritadante.it/#contatti">Contatti</a></li>
+        <li><a href="https://maritadante.it/#curriculum">Autori</a></li>
+    </ul>
+	</nav>
+
+
+    <div class="container" style="padding-top: 100px;">
+      {{ content }}
+    </div>
+
+	<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR" data-sdk-integration-source="button-factory"></script>
+<script src="site.js"></script>
+<script>
+function initPayPalButton()
+{
+  paypal.Buttons({
+    style: {
+      shape: 'pill',
+      color: 'black',
+      layout: 'vertical',
+      label: 'pay',
+      
+    },
+
+    createOrder: function(data, actions)
+    {
+      return actions.order.create({
+        purchase_units: [{"description":"I monaci matematici e l’enigma del nove, un libro di Marita Dante e Domenico Dante. Edizioni Papergraf","amount":{"currency_code":"EUR","value":14.5,"breakdown":{"item_total":{"currency_code":"EUR","value":12},"shipping":{"currency_code":"EUR","value":2.5},"tax_total":{"currency_code":"EUR","value":0}}}}]
+      });
+    },
+
+    onApprove: function(data, actions)
+    {
+      return actions.order.capture().then(function(details)
+      {
+        alert('Transaction completed by ' + details.payer.name.given_name + '!');
+      });
+    },
+
+    onError: function(err)
+    {
+      console.log(err);
+    }
+  }).render('#paypal-button-container');
+}
+initPayPalButton();
+</script>
+</html>
