@@ -9,7 +9,6 @@ Tutti i diritti riservati.
 * Github: [home](https://github.com/maritadante), [sito](https://github.com/maritadante/maritadante.github.io), [template](https://github.com/t413/SinglePaged)
 * [Guida Markdown](https://informaticabrutta.it/markdown-guida/)
 * [Github pages documentation](https://help.github.com/en/github/working-with-github-pages)
-* [Matematica Ragionata wordpress](https://matematicaragionata.wordpress.com/curriculum)
 
 ## Temi ed esempi
 
@@ -20,10 +19,8 @@ Tutti i diritti riservati.
 ## TODOs
 
 * transform as much as possible into markdown (starting with sections likely to be edited often)
-* host and present high resolution images for art and photos
 * improve rendering on mobile (use fluid for book divs, responsive breaks for sliders -- see examples below)
-* add mini, single page landing sites for each book
-* for "Matematica Ragionata", add questions and answers with [accordions](https://raw.githubusercontent.com/cesium/codeweek15/gh-pages/_posts/2000-01-02-activities.md)
+* for "Matematica Ragionata", add questions and answers with [accordions](https://raw.githubusercontent.com/cesium/codeweek15/gh-pages/_posts/2000-01-02-activities.md) See also: [Matematica Ragionata wordpress](https://matematicaragionata.wordpress.com/curriculum)
 
 ## Documentation
 
@@ -35,7 +32,7 @@ Tutti i diritti riservati.
 
 ## Local development
 
-* Run: **jekyll serve -w**
+* Run: ```export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"; jekyll serve -w```
 * [Jekyll localhost](http://localhost:4000/)
 
 ## Examples
@@ -50,22 +47,6 @@ Tutti i diritti riservati.
 {: .text-purple}
 
 {: style="margin-top:100px;"}
-```
-
-#### Responsive sliders
-
-```javascript
-$('.partners').slick({
-  slidesToShow: 2,
-  responsive: [
-  {
-    breakpoint: 976,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
-    }
-  }]
-});
 ```
 
 #### Tabular data
