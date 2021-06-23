@@ -22,11 +22,8 @@ Tutti i diritti riservati.
 ## Documentation
 
 * [Github pages docs](https://help.github.com/en/github/working-with-github-pages)
-* Markdown cheatsheets:
-	* [soshace](https://dev.to/soshace/markdown-cheat-sheet-definitive-guide-to-markdown-markdown-resources-n15)
-	* [adam](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-	* [sindresorhus](https://sindresorhus.com/github-markdown-css/)
-	* [github](https://guides.github.com/features/mastering-markdown/)
+* [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Github flavored markdown](https://guides.github.com/features/mastering-markdown/)
 * [Kramdown quickref](https://kramdown.gettalong.org/quickref.html)
 * [Kramdown CSS examples](https://digitaldrummerj.me/styling-jekyll-markdown/)
 * [Jekyll](https://jekyllrb.com/)
