@@ -53,6 +53,11 @@ pre {
 
 /* ----- base elements ----- */
 
+em {
+  color: #5685bc;
+  font-weight: 500;
+}
+
 img {
   max-width:100%!important;
   height:auto;
@@ -217,7 +222,7 @@ nav ul li:hover, nav ul li.active {
   width: 50%;
 }
 
-#minisito-libro h2 {
+#minisito-libro h1, #minisito-libro h2 {
   margin-bottom: 5px;
 }
 
@@ -254,6 +259,7 @@ nav ul li:hover, nav ul li.active {
   font-size: 20px;
   font-weight: bold;
   width: 40%;
+  min-width: 40%;
   margin-left: auto;
   margin-right: auto;
 }

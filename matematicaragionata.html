@@ -1,0 +1,119 @@
+---
+title: Matematica Ragionata
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <meta name="keywords" content="{{ site.keywords }}">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="combo.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+  {% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+</head>
+<body>
+  <div id="minisito-libro">
+
+    <nav id="nav-menu">
+    <a class="torna-al-sito" href="https://maritadante.it">MARITADANTE.IT</a>
+    <ul>
+        <li class="p-compra"><a href="#compra">Acquista</a></li>
+        <li><a href="https://maritadante.it#contatti">Contatti</a></li>
+        <li><a href="https://maritadante.it#curriculum">Autrice</a></li>
+    </ul>
+  </nav>
+
+  ciao
+
+  <div class="container" style="padding-top: 100px;">
+    {% capture content %} {% include matematicaragionata.md %} {% endcapture %}
+    {{ content | markdownify }}
+  </div>
+
+  <div id="smart-button-container">
+      <div id="compra" class="p-compra" style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+>
+</script>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR" data-sdk-integration-source="button-factory"></script>
+<script>
+$(document).ready(function()
+{
+  $('#tabs li a:not(:first)').addClass('inactive');
+  $('.tabcontainer').hide();
+  $('.tabcontainer:first').show();
+  $('#tabs li a').mouseover(function()
+  {
+    var t = $(this).attr('id');
+    if ($(this).hasClass('inactive'))
+    {
+      $('#tabs li a').addClass('inactive');
+      $(this).removeClass('inactive');
+
+      $('.tabcontainer').hide();
+      $('#' + t + 'C').show();
+    }
+  });
+});
+</script>
+<script>
+function initPayPalButton()
+{
+  paypal.Buttons({
+    style: {
+      shape: 'pill',
+      color: 'black',
+      layout: 'vertical',
+      label: 'pay',
+      
+    },
+
+    createOrder: function(data, actions)
+    {
+      return actions.order.create({
+        purchase_units: [{"description":"Matematica Ragionata, un libro di Marita Dante. La Linea Editrice","amount":{"currency_code":"EUR","value":18.5,"breakdown":{"item_total":{"currency_code":"EUR","value":16},"shipping":{"currency_code":"EUR","value":2.5},"tax_total":{"currency_code":"EUR","value":0}}}}]
+      });
+    },
+
+    onApprove: function(data, actions)
+    {
+      return actions.order.capture().then(function(details)
+      {
+        alert('Transaction completed by ' + details.payer.name.given_name + '!');
+      });
+    },
+
+    onError: function(err)
+    {
+      console.log(err);
+    }
+  }).render('#paypal-button-container');
+}
+initPayPalButton();
+</script>
+</html>

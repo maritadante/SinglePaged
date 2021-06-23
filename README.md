@@ -6,54 +6,35 @@ Tutti i diritti riservati.
 ## Collegamenti
 
 * Sito: [maritadante.it](https://maritadante.it/)
-* Github: [home](https://github.com/maritadante), [sito](https://github.com/maritadante/maritadante.github.io), [template](https://github.com/t413/SinglePaged)
-* [Guida Markdown](https://informaticabrutta.it/markdown-guida/)
-* [Github pages documentation](https://help.github.com/en/github/working-with-github-pages)
-
-## Temi ed esempi
-
-* [Jekyll Themes](http://jekyllthemes.org)
-* [Portfolio theme](http://bogoli.github.io/-folio/)
-* [Prologue theme](https://chrisbobbe.github.io/jekyll-theme-prologue)
+* [Guida Markdown in italiano](https://informaticabrutta.it/markdown-guida/)
 
 ## TODOs
 
-* transform as much as possible into markdown (starting with sections likely to be edited often)
+* transform as much as possible into markdown (starting with sections likely to be edited often) but also
+* transform static parts into html without code (even at compile time, it's just added complexity)
+* separate my own css modifications from the original in a separate css loaded in combo
+* for every book page, add a page wide css selector to allow for finegrained styling
 * improve rendering on mobile (use fluid for book divs, responsive breaks for sliders -- see examples below)
 * for "Matematica Ragionata", add questions and answers with [accordions](https://raw.githubusercontent.com/cesium/codeweek15/gh-pages/_posts/2000-01-02-activities.md) See also: [Matematica Ragionata wordpress](https://matematicaragionata.wordpress.com/curriculum)
+* make local copy of json files
+* publish "Pensieri sulla strada" via [kindle publishing](https://kdp.amazon.com/en_US/help/topic/G202172740)
 
 ## Documentation
 
-* Markdown cheatsheets: [soshace](https://dev.to/soshace/markdown-cheat-sheet-definitive-guide-to-markdown-markdown-resources-n15), [adam](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [sindresorhus](https://sindresorhus.com/github-markdown-css/), [github](https://guides.github.com/features/mastering-markdown/)
-* [Styling Markdown](https://digitaldrummerj.me/styling-jekyll-markdown/)
-* [Kramdown quickreference](https://kramdown.gettalong.org/quickref.html)
-* [Jekyll layouts](https://jekyllrb.com/docs/layouts/)
+* [Github pages docs](https://help.github.com/en/github/working-with-github-pages)
+* Markdown cheatsheets:
+	* [soshace](https://dev.to/soshace/markdown-cheat-sheet-definitive-guide-to-markdown-markdown-resources-n15)
+	* [adam](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+	* [sindresorhus](https://sindresorhus.com/github-markdown-css/)
+	* [github](https://guides.github.com/features/mastering-markdown/)
+* [Kramdown quickref](https://kramdown.gettalong.org/quickref.html)
+* [Kramdown CSS examples](https://digitaldrummerj.me/styling-jekyll-markdown/)
+* [Jekyll](https://jekyllrb.com/)
+* [Jekyll Themes](http://jekyllthemes.org) ([portfolio](http://bogoli.github.io/-folio/), [prologue](https://chrisbobbe.github.io/jekyll-theme-prologue))
+* [Liquid](https://shopify.github.io/liquid/)
 * [Google fonts](https://fonts.google.com/)
 
 ## Local development
 
 * Run: ```export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"; jekyll serve -w```
 * [Jekyll localhost](http://localhost:4000/)
-
-## Examples
-
-#### Dividers, jump to section, add style to markdown from Liquid
-
-```markdown
----
-
-<a href="#downloads">downloads</a>
-
-{: .text-purple}
-
-{: style="margin-top:100px;"}
-```
-
-#### Tabular data
-
-```markdown
-user                  |      group     |others
-:---------------------:|:--------------:|:------:
-7                     |       5        |  4
-read + write + execute | read + execute | read
-```

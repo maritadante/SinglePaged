@@ -1,7 +1,4 @@
----
-title: I monaci matematici
-layout: libro
----
+
 ## **I monaci matematici e l'enigma del nove**
 #### *un libro di Marita Dante e Domenico Dante*
 ![copertina](img/libri/monacimatematici.jpg)
@@ -29,7 +26,7 @@ apprezzare la magia della vita.
 L'acquisto online di *"I monaci matematici e l'enigma del nove"* è temporaneamente non disponibile
 causa COVID per la momentanea chiusura della casa editrice:
 
-<a class="bottone" href="https://www.libreriauniversitaria.it/matematica-ragionata-dante-marita-linea/libro/9788843900299" style="opacity: 0.6; cursor: not-allowed;" target="_blank">Acquista su <em>LibreriaUniversitaria</em></a>
+<a class="bottone" href="https://www.libreriauniversitaria.it/monaci-matematici-enigma-nove-dante/libro/9788897645283" style="opacity: 0.6; cursor: not-allowed;" target="_blank">Acquista su LibreriaUniversitaria</a>
 
 In alternativa, è possibile acquistare il volume mandando una richiesta a **<a href="mailto:marita.dante@gmail.com" style="color: #000;">marita.dante@gmail.com</a>** e specificando il proprio indirizzo di consegna.
 

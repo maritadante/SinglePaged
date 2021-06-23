@@ -27,7 +27,6 @@
       {% endfor %}
     </ul></nav>
 
-
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
@@ -51,11 +50,10 @@
       </div>
     {% endfor %}
 
-
     <div id="footer" class="section text-white">
       <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
+        <p>Copyright 2019 <i class="fa fa-copyright"></i> Marita Dante. Tutti i diritti riservati.</p>
+        <p>Web design credits: <a href="http://t413.com/">Tim O’Brien</a></p>
       </div>
     </div>
   </div>

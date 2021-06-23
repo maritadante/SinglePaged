@@ -13,6 +13,3 @@ Con “Matematica Ragionata” in breve tempo lo studente sarà in grado di:
 * conoscere i contenuti dei quesiti realmente assegnati ed esercitarsi su questi ultimi;
 * ampliare e consolidare le conoscenze di matematica di base e rivisitarle da un punto di vista superiore;
 * acquisire strategie utili per rispondere velocemente ai quesiti a risposta multipla e superare così i test con successo!
-
-Altre news nel sito
-**https://matematicaragionata.wordpress.com/**
