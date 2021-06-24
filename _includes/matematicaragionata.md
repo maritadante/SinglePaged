@@ -2,7 +2,10 @@
 # Matematica Ragionata
 #### Matematica di base per l'Università
 ![copertina](img/libri/matematicaragionata.jpg)
-<a class="bottoneverde" href="https://raw.githubusercontent.com/maritadante/maritadante.github.io/master/_includes/pdf/monaci_matematici_estratto.pdf"><i class="fa fa-cloud-download" style="padding-right: 10px;"></i> Scarica un estratto!</a>
+
+<a class="bottoneverde" href="https://raw.githubusercontent.com/maritadante/maritadante.github.io/master/_includes/pdf/monaci_matematici_estratto.pdf"><i class="fa fa-cloud-download" style="padding-right: 10px;"></i> Prova appello online</a>
+
+<a class="bottoneverde" href="https://raw.githubusercontent.com/maritadante/maritadante.github.io/master/_includes/pdf/monaci_matematici_estratto.pdf"><i class="fa fa-cloud-download" style="padding-right: 10px;"></i> Scarica appelli 2001--2010</a>
 
 Frutto di sedici anni di esperienza nei precorsi alla Scuola di Ingegneria dell’Università di Padova,
 è stato pensato e sviluppato per ripercorrere le nozioni di base della disciplina necessarie ai test
@@ -83,78 +86,20 @@ Il volume _Matematica Ragionata_ è consigliato nella [pagina del precorso on-li
 </div>
 
 
-## Conoscenze di Matematica richieste
+## Requisiti per i test di ingresso
 
 Nei test scientifici e all'ingresso dell'Università un'adeguata preparazione iniziale di matematica richiede le seguenti conoscenze di base:
 
-1. _Aritmetica ed Algebra_. Proprietà e operazioni sui numeri (interi, razionali, reali). Valore assoluto. Potenze e radici. Logaritmi ed esponenziali. Calcolo letterale. Polinomi (operazioni, decomposizione in fattori). Equazioni e disequazioni algebriche di primo e secondo grado o ad esse riducibili. Sistemi di equazioni di primo grado. Equazioni e disequazioni razionali fratte e con radicali.
+**Aritmetica ed Algebra**. Proprietà e operazioni sui numeri (interi, razionali, reali). Valore assoluto. Potenze e radici. Logaritmi ed esponenziali. Calcolo letterale. Polinomi (operazioni, decomposizione in fattori). Equazioni e disequazioni algebriche di primo e secondo grado o ad esse riducibili. Sistemi di equazioni di primo grado. Equazioni e disequazioni razionali fratte e con radicali.
 
-2. _Geometria_. Segmenti ed angoli; loro misura e proprietà. Rette e piani. Luoghi geometrici notevoli. Proprietà delle principali figure geometriche piane (triangoli, circonferenze, cerchi, poligoni regolari, ecc.) e relative lunghezze ed aree. Proprietà delle principali figure geometriche solide (sfere, coni, cilindri, prismi, parallelepipedi, piramidi, ecc.) e relativi volumi ed aree della superficie.
+**Geometria**. Segmenti ed angoli; loro misura e proprietà. Rette e piani. Luoghi geometrici notevoli. Proprietà delle principali figure geometriche piane (triangoli, circonferenze, cerchi, poligoni regolari, ecc.) e relative lunghezze ed aree. Proprietà delle principali figure geometriche solide (sfere, coni, cilindri, prismi, parallelepipedi, piramidi, ecc.) e relativi volumi ed aree della superficie.
 
-3. _Geometria analitica e funzioni numeriche_. Coordinate cartesiane. Il concetto di funzione. Equazioni di rette e di semplici luoghi geometrici (circonferenze, ellissi, parabole, ecc.). Grafici e proprietà delle funzioni elementari (potenze, logaritmi, esponenziali, ecc.). Calcoli con l'uso dei logaritmi. Equazioni e disequazioni logaritmiche ed esponenziali.
+**Geometria analitica e funzioni numeriche**. Coordinate cartesiane. Il concetto di funzione. Equazioni di rette e di semplici luoghi geometrici (circonferenze, ellissi, parabole, ecc.). Grafici e proprietà delle funzioni elementari (potenze, logaritmi, esponenziali, ecc.). Calcoli con l'uso dei logaritmi. Equazioni e disequazioni logaritmiche ed esponenziali.
 
-4. _Goniometria e Trigonometria_. Grafici e proprietà delle funzioni seno, coseno e tangente. Le principali formule goniometriche (addizione, sottrazione, duplicazione, bisezione). Equazioni e disequazioni goniometriche. Relazioni fra elementi di un triangolo.
-
-
+**Goniometria e Trigonometria**. Grafici e proprietà delle funzioni seno, coseno e tangente. Le principali formule goniometriche (addizione, sottrazione, duplicazione, bisezione). Equazioni e disequazioni goniometriche. Relazioni fra elementi di un triangolo.
 
 
-
-
-
-[MathJax on Github pages](http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html)
-
-[Letter on numbered lists](https://stackoverflow.com/questions/13366820/how-do-you-make-lettered-lists-using-markdown)
-
-# Contenuti del testo
-
-$$F = G \frac{m_1 m_2} {r^2}$$
-
-Gli argomenti sviluppati nel volume coprono le conoscenze di matematica richieste nei test scientifici e all'ingresso dell'Università. Seguono alcuni esempi tratti dal testo.
-* Algebra 25 9
-* Disequazioni 5
-* Esponenziali e Logaritmi 32 40 44 33 9 3 21
-* Geometria Analitica 27
-* Goniometria e Trigonometria 44 6 3 10 12 41
-* Logica e Insiemi 15 22 11
-
-### Esempio contenuti
-
-##### **Quesito 1 -- Algebra**
-L'equazione $|1-x^{2}|=2$
-1. ha esattamente una soluzione reale
-2. non ha soluzioni reali
-3. ha esattamente due soluzioni reali
-4. ha più di due soluzioni reali
-
-$$y=|1-x^2|$$
-
-When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-
-azione equivale al sistema:
-
-$$y=|1-x^2|$$
-
-Risolvere l'equazione equivale a cercare i punti di intersezione tra le curve.
-
-
-Le curve si intersecano in due punti distinti. L'equazione ha perciò esattamente due soluzioni reali, risposta (c).
-
-In N-dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
-for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
-divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
-The kerel summation radius $r$ is equal to the N-simplex height $h$.
-
-$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
-
-
-
-
-
-
-
-
-### Acquista il libro
+## Acquista il libro
 
 Puoi ordinare online _Matematica Ragionata_ tramite Libreria Universitaria al seguente indirizzo:
 

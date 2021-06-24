@@ -16,7 +16,7 @@ Tutti i diritti riservati.
 * for every book page, add a page wide css selector to allow for finegrained styling
 * improve rendering on mobile (use fluid for book divs, responsive breaks for sliders -- see examples below)
 * for "Matematica Ragionata", add questions and answers with [accordions](https://raw.githubusercontent.com/cesium/codeweek15/gh-pages/_posts/2000-01-02-activities.md) See also: [Matematica Ragionata wordpress](https://matematicaragionata.wordpress.com/curriculum)
-* make local copy of json files
+* make local copy of .js resources?
 * publish "Pensieri sulla strada" via [kindle publishing](https://kdp.amazon.com/en_US/help/topic/G202172740)
 
 ## Documentation

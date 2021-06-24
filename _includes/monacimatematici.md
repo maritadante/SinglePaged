@@ -21,7 +21,7 @@ spiegazioni dei giochi arricchite da numerosi esempi.
 adulti: in verità, è un volume rivolto a chi ha conservato un cuore bambino, capace di scoprire ed
 apprezzare la magia della vita.
 
-### Acquista il libro
+## Acquista il libro
 
 L'acquisto online di *"I monaci matematici e l'enigma del nove"* è temporaneamente non disponibile
 causa COVID per la momentanea chiusura della casa editrice:

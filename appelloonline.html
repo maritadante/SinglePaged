@@ -33,16 +33,10 @@ title: Matematica Ragionata
   ciao
 
   <div class="container" style="padding-top: 100px;">
-    {% capture content %} {% include matematicaragionata.md %} {% endcapture %}
+    {% capture content %} {% include appelloonline.md %} {% endcapture %}
     {{ content | markdownify }}
   </div>
 
-  <div id="smart-button-container">
-      <div id="compra" class="p-compra" style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-  </div>
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/x-mathjax-config">
@@ -58,61 +52,5 @@ title: Matematica Ragionata
   charset="utf-8"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 >
-</script>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR" data-sdk-integration-source="button-factory"></script>
-<script>
-$(document).ready(function()
-{
-  $('#tabs li a:not(:first)').addClass('inactive');
-  $('.tabcontainer').hide();
-  $('.tabcontainer:first').show();
-  $('#tabs li a').mouseover(function()
-  {
-    var t = $(this).attr('id');
-    if ($(this).hasClass('inactive'))
-    {
-      $('#tabs li a').addClass('inactive');
-      $(this).removeClass('inactive');
-
-      $('.tabcontainer').hide();
-      $('#' + t + 'C').fadeIn(250);
-    }
-  });
-});
-</script>
-<script>
-function initPayPalButton()
-{
-  paypal.Buttons({
-    style: {
-      shape: 'pill',
-      color: 'black',
-      layout: 'vertical',
-      label: 'pay',
-      
-    },
-
-    createOrder: function(data, actions)
-    {
-      return actions.order.create({
-        purchase_units: [{"description":"Matematica Ragionata, un libro di Marita Dante. La Linea Editrice","amount":{"currency_code":"EUR","value":18.5,"breakdown":{"item_total":{"currency_code":"EUR","value":16},"shipping":{"currency_code":"EUR","value":2.5},"tax_total":{"currency_code":"EUR","value":0}}}}]
-      });
-    },
-
-    onApprove: function(data, actions)
-    {
-      return actions.order.capture().then(function(details)
-      {
-        alert('Transaction completed by ' + details.payer.name.given_name + '!');
-      });
-    },
-
-    onError: function(err)
-    {
-      console.log(err);
-    }
-  }).render('#paypal-button-container');
-}
-initPayPalButton();
 </script>
 </html>
