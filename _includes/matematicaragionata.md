@@ -21,9 +21,9 @@ Con _Matematica Ragionata_ in breve tempo lo studente sarà in grado di:
 
 
 {: #tabs}
-* [Studenti](){: #tab1}
-* [Docenti](){: #tab2}
-* [Scuole](){: #tab3}
+* [Studenti](javascript:void(0);){: #tab1}
+* [Docenti](javascript:void(0);){: #tab2}
+* [Scuole](javascript:void(0);){: #tab3}
 
 <div class="tabcontainer" id="tab1C">
 {% capture content %}
@@ -86,9 +86,9 @@ Il volume _Matematica Ragionata_ è consigliato nella [pagina del precorso on-li
 </div>
 
 
-## Requisiti per i test di ingresso
+## Contenuti del testo
 
-Nei test scientifici e all'ingresso dell'Università un'adeguata preparazione iniziale di matematica richiede le seguenti conoscenze di base:
+Con più di 250 quesiti risolti, _Matematica Ragionata_ copre le conoscenze di base richieste per i test di ingresso di matematica e i requisiti minimi per l'ingresso a una facoltà universitaria scientifica. Una adeguata preparazione iniziale di matematica richiede le seguenti conoscenze di base:
 
 **Aritmetica ed Algebra**. Proprietà e operazioni sui numeri (interi, razionali, reali). Valore assoluto. Potenze e radici. Logaritmi ed esponenziali. Calcolo letterale. Polinomi (operazioni, decomposizione in fattori). Equazioni e disequazioni algebriche di primo e secondo grado o ad esse riducibili. Sistemi di equazioni di primo grado. Equazioni e disequazioni razionali fratte e con radicali.
 
