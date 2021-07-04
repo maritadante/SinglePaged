@@ -2,7 +2,7 @@
 ## **I monaci matematici e l'enigma del nove**
 #### *un libro di Marita Dante e Domenico Dante*
 ![copertina](img/libri/monacimatematici.jpg)
-<a class="bottoneverde" href="https://raw.githubusercontent.com/maritadante/maritadante.github.io/master/_includes/pdf/monaci_matematici_estratto.pdf"><i class="fa fa-cloud-download" style="padding-right: 10px;"></i> Scarica un estratto!</a>
+<a class="bottoneverde" href="https://github.com/maritadante/maritadante.github.io/raw/master/_includes/pdf/monaci_matematici_estratto.pdf"><i class="fa fa-cloud-download" style="padding-right: 10px;"></i> Scarica un estratto!</a>
 
 “I monaci matematici e l’enigma del nove” è un taccuino magico ricco di giochi strabilianti e sorprese,
 ma non solo: tutti quelli che hanno ancora l’infantile capacità di emozionarsi dinanzi alle scoperte

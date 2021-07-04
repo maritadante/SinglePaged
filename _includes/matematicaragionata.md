@@ -3,9 +3,9 @@
 #### Matematica di base per l'Università
 ![copertina](img/libri/matematicaragionata.jpg)
 
-<a class="bottoneverde" href="https://raw.githubusercontent.com/maritadante/maritadante.github.io/master/_includes/pdf/monaci_matematici_estratto.pdf"><i class="fa fa-cloud-download" style="padding-right: 10px;"></i> Prova appello online</a>
+<a class="bottoneverde" href="appelloonline"><i class="fa fa-pencil-square-o" style="float: left; padding-right: 10px; padding-left: 10px; padding-top: 5px; font-size: 36px;"></i>Appello di prova con soluzioni!</a>
 
-<a class="bottoneverde" href="https://raw.githubusercontent.com/maritadante/maritadante.github.io/master/_includes/pdf/monaci_matematici_estratto.pdf"><i class="fa fa-cloud-download" style="padding-right: 10px;"></i> Scarica appelli 2001--2010</a>
+<a class="bottoneverde" href="https://github.com/maritadante/maritadante.github.io/raw/master/_includes/pdf/matematica_ragionata_archivio_appelli.pdf"><i class="fa fa-cloud-download" style="float: left; padding-right: 10px; padding-left: 10px; padding-top: 5px; font-size: 36px;"></i>Archivio appelli e risposte 2001--2013</a>
 
 Frutto di sedici anni di esperienza nei precorsi alla Scuola di Ingegneria dell’Università di Padova,
 è stato pensato e sviluppato per ripercorrere le nozioni di base della disciplina necessarie ai test
@@ -97,6 +97,8 @@ Con più di 250 quesiti risolti, _Matematica Ragionata_ copre le conoscenze di b
 **Geometria analitica e funzioni numeriche**. Coordinate cartesiane. Il concetto di funzione. Equazioni di rette e di semplici luoghi geometrici (circonferenze, ellissi, parabole, ecc.). Grafici e proprietà delle funzioni elementari (potenze, logaritmi, esponenziali, ecc.). Calcoli con l'uso dei logaritmi. Equazioni e disequazioni logaritmiche ed esponenziali.
 
 **Goniometria e Trigonometria**. Grafici e proprietà delle funzioni seno, coseno e tangente. Le principali formule goniometriche (addizione, sottrazione, duplicazione, bisezione). Equazioni e disequazioni goniometriche. Relazioni fra elementi di un triangolo.
+
+Consulta [l'appello online](appelloonline) di _Matematica ragionata_ per un esempio dei contenuti del libro!
 
 
 ## Acquista il libro

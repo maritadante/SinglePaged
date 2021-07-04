@@ -203,6 +203,18 @@ nav ul li:hover, nav ul li.active {
 
 /* ----- sections/articles ----- */
 
+#appello ol {
+  list-style: lower-alpha;
+}
+
+#appello a {
+  text-decoration:none;
+}
+
+#appello .aria {
+  margin-bottom: 50px;
+}
+
 .libro {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4px;
@@ -225,7 +237,6 @@ nav ul li:hover, nav ul li.active {
 #minisito-libro h1, #minisito-libro h2 {
   margin-bottom: 5px;
 }
-
 
 #minisito-libro a {
   text-decoration:none;
