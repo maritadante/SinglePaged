@@ -22,43 +22,35 @@ title: Matematica Ragionata
   <div id="minisito-libro">
 
     <nav id="nav-menu">
-    <a class="torna-al-sito" href="https://maritadante.it">MARITADANTE.IT</a>
-    <ul>
+      <a class="torna-al-sito" href="https://maritadante.it">MARITADANTE.IT</a>
+      <ul>
         <li class="p-compra"><a href="#compra">Acquista</a></li>
         <li><a href="https://maritadante.it#contatti">Contatti</a></li>
         <li><a href="https://maritadante.it#curriculum">Autrice</a></li>
-    </ul>
-  </nav>
+      </ul>
+    </nav>
 
-  ciao
+	ciao
 
-  <div class="container" style="padding-top: 100px;">
-    {% capture content %} {% include matematicaragionata.md %} {% endcapture %}
-    {{ content | markdownify }}
-  </div>
+	<div class="container" style="padding-top: 100px;">
+	  {% capture content %} {% include matematicaragionata.md %} {% endcapture %}
+	  {{ content | markdownify }}
+	</div>
 
-  <div id="smart-button-container">
+    <div id="smart-button-container">
       <div id="compra" class="p-compra" style="text-align: center;">
         <div id="paypal-button-container"></div>
       </div>
     </div>
+
+    <div class="container">
+      <p style="text-align:center; font-size:13px; margin: 0; padding-top: 20px;">Copyright 2019—2021 <i class="fa fa-copyright"></i> Marita Dante. Tutti i diritti riservati.</p>
+      <p style="text-align:center; font-size:13px; margin: 0; padding-bottom: 20px;">Web design credits: <a href="http://t413.com/">Tim O’Brien</a></p>
+    </div>
+
   </div>
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script
-  type="text/javascript"
-  charset="utf-8"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
->
-</script>
 <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR" data-sdk-integration-source="button-factory"></script>
 <script>
 $(document).ready(function()
