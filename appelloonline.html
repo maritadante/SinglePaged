@@ -1,5 +1,5 @@
 ---
-title: Matematica Ragionata
+title: Appello online di Matematica Ragionata
 ---
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
@@ -19,23 +19,26 @@ title: Matematica Ragionata
   {% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
 </head>
 <body>
-  <div id="minisito-libro">
+  <div id="appello">
 
     <nav id="nav-menu">
-    <a class="torna-al-sito" href="https://maritadante.it">MARITADANTE.IT</a>
-    <ul>
+      <a class="torna-al-sito" href="https://maritadante.it">MARITADANTE.IT</a>
+      <ul>
         <li class="p-compra"><a href="#compra">Acquista</a></li>
         <li><a href="https://maritadante.it#contatti">Contatti</a></li>
         <li><a href="https://maritadante.it#curriculum">Autrice</a></li>
-    </ul>
-  </nav>
+      </ul>
+    </nav>
 
-  ciao
+    <div class="container" style="padding-top: 100px;">
+      {% capture content %} {% include appelloonline.md %} {% endcapture %}
+      {{ content | markdownify }}
+    </div>
 
-  <div class="container" style="padding-top: 100px;">
-    {% capture content %} {% include appelloonline.md %} {% endcapture %}
-    {{ content | markdownify }}
-  </div>
+    <div class="container">
+      <p style="text-align:center; font-size:13px; margin: 0; padding-top: 20px;">Copyright 2019—2021 <i class="fa fa-copyright"></i> Marita Dante. Tutti i diritti riservati.</p>
+      <p style="text-align:center; font-size:13px; margin: 0; padding-bottom: 20px;">Web design credits: <a href="http://t413.com/">Tim O’Brien</a></p>
+    </div>
 
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -50,7 +53,19 @@ title: Matematica Ragionata
 <script
   type="text/javascript"
   charset="utf-8"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 >
+</script>
+<script>
+$(document).ready(function()
+{
+  $('.solcontainer').hide();
+  $('.mostra').click(function()
+  {
+    this.innerHTML = this.innerHTML == 'Mostra soluzione' ? 'Nascondi soluzione' : 'Mostra soluzione'
+    var solnum = $(this).attr('id');
+    $('#' + solnum + 'c').fadeToggle(250);
+  });
+});
 </script>
 </html>
