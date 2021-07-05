@@ -30,6 +30,7 @@ Tutti i diritti riservati.
 * [Jekyll Themes](http://jekyllthemes.org) ([portfolio](http://bogoli.github.io/-folio/), [prologue](https://chrisbobbe.github.io/jekyll-theme-prologue))
 * [Liquid](https://shopify.github.io/liquid/)
 * [Google fonts](https://fonts.google.com/)
+* [Google search console](https://search.google.com/search-console?resource_id=sc-domain:maritadante.it)
 
 ## Local development
 
