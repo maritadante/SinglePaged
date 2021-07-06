@@ -10,12 +10,16 @@ Tutti i diritti riservati.
 
 ## TODOs
 
-* transform as much as possible into markdown (starting with sections likely to be edited often) but also
-* transform static parts into html without code (even at compile time, it's just added complexity)
-* separate my own css modifications from the original in a separate css loaded in combo
-* for every book page, add a page wide css selector to allow for finegrained styling
-* improve rendering on mobile (use fluid for book divs, responsive breaks for sliders -- see examples below)
-* for "Matematica Ragionata", add questions and answers with [accordions](https://raw.githubusercontent.com/cesium/codeweek15/gh-pages/_posts/2000-01-02-activities.md) See also: [Matematica Ragionata wordpress](https://matematicaragionata.wordpress.com/curriculum)
+* markdown
+  * transform as much as possible into markdown (starting with sections likely to be edited often) but also
+  * transform static parts into html without code (even at compile time, it's just added complexity)
+  * put all .md resources into a subdir named as the page
+* cleanup css / javascript
+  * separate my own css modifications from the original in a separate css loaded in combo
+  * for every book page, add a page wide css selector to allow for finegrained styling
+  * separate site.js parts necessary for each page
+* improve rendering on mobile (use fluid for book divs, responsive breaks for sliders -- do I need a professional?)
+* optimize placement on search console, debug analytics
 * make local copy of .js resources?
 * publish "Pensieri sulla strada" via [kindle publishing](https://kdp.amazon.com/en_US/help/topic/G202172740)
 
