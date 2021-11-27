@@ -12,4 +12,4 @@ img/arte/Gesù La_Via.jpg | Gesù La_Via, 2020. *Pastelli su carta, collezione "
 img/arte/Gesù La_Verità.jpg | Gesù La_Verità, 2020. *Pastelli su carta, collezione "Corona_Gesù".*
 img/arte/Gesù La_Vita.JPG | Gesù La_Vita, 2020. *Grafite su carta sottile e traslucida, collezione "Corona_Gesù".*
 img/arte/Veronica.jpg | Veronica, 2020. *Pastelli e grafite su carta di riso, collezione "Corona_Gesù".*
-img/arte/Infinito.jpg | M'illumino d'Infinito, 2021. *Pastelli e grafite su carta, mostra "Volto di Donna.*
+img/arte/Infinito.jpg | M'illumino d'Infinito, 2021. *Pastelli e grafite su carta, mostra "Volto di Donna".*
