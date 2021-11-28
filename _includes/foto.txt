@@ -10,4 +10,4 @@ img/foto/9 rotonda.jpg | Villa La Rotonda, Vicenza | 26 Novembre, 2019
 img/foto/10 fiori.jpg | Primavera 2020 |
 img/foto/11 Porsche.JPG | Ruote d'Epoca | 18 Luglio, 2021
 img/foto/12 DSC00580.JPG | Bocchetta Paù | 28 ottobre, 2021
-img/foto/12 PXL_20211028_102857757.jpg | Valle Magnaboschi, Cesuna | 28 ottobre, 2021
+img/foto/13 PXL_20211028_102857757.jpg | Valle Magnaboschi, Cesuna | 28 ottobre, 2021
