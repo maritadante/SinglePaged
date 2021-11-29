@@ -51,3 +51,4 @@ Marita ha pubblicato i seguenti libri:
 * **4 Novembre 2019** Il Veneto tra magia e matematica con Marita Dante a Marano – VicenzaPiù [link](https://www.vicenzapiu.com/leggi/il-veneto-tra-magia-e-matematica-con-marita-dante-a-marano/)
 * **10 Aprile 2019** Conferenza *"La matematica nascosta nell'arte e nella natura"* per l'associazione [*"Demetra Donne in Aiuto"*](http://www.demetradonne.it/chi-siamo/) a Montecchio Precalcino [link](img/articoli/demetra.jpg)
 * **7 Aprile 2017** Presentazione del libro Monaci Matematici Festival dell'Illusionismo "Città di Thiene" [link 1](img/articoli/monaci1.jpg), [link 2](img/articoli/monaci2.jpg)
+* **Gennaio-Aprile 2017** I libri di Marita Dante sono presenti nel primo numero del "Periodico di matematiche" [link 1](img/articoli/libri1.jpg), [link 2](img/articoli/libri2.jpg)
