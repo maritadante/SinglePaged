@@ -26,4 +26,4 @@ img/interventi/2019-11-23_Thiene_DonnAArte/DSC00352.JPG | *"La matematica nascos
 img/interventi/2019-11-23_Thiene_DonnAArte/DSC00371.JPG | *"La matematica nascosta nell'arte e nella natura"*, Thiene DonnAArte
 img/interventi/2021-11-12_Schio_MateMagia/1 Locandina.jpg | *"MateMagia"* a Schio, palazzo Toaldi Capra
 img/interventi/2021-11-12_Schio_MateMagia/DSC07134c.jpg | *"MateMagia"* incontro a palazzo Toaldi Capra
-img/interventi/2021-11-12_Schio_MateMagia/Assistente.JPG | *"MateMagia"* 'l'Assistente'
+img/interventi/2021-11-12_Schio_MateMagia/Assistente.JPG | 'l'Assistente' di *"MateMagia"* 
