@@ -27,17 +27,22 @@ Marita ha pubblicato i seguenti libri:
 
 #### Conferenze, mostre e interventi
 
-* **30 Novembre 2019** Quarta serata della conferenza spettacolo [*"Il mistero della matemagia"*](https://www.spettacolidimistero.it/eventi/), a Santomio di Malo, Marano Vicentino.
-* **23 Novembre 2019** Marita presenta la conferenza [*"La matematica nascosta nell'arte e nella natura"*](https://thiene.citycorner.it/evento/la-matematica-nascosta-nellarte-nella-natura-conferenza-marita-dante/) nell'ambito della manifestazione [*DonnAArte*](https://www.altovicentinonline.it/attualita-2/donnaarte-a-thiene-un-gioiello-contro-il-tumore-al-seno/) a Thiene.
-* **23 Novembre 2019** Terzo incontro della conferenza spettacolo  [*"Il mistero della matemagia"*](https://www.spettacolidimistero.it/eventi/), a Malo.
+* **12 Novembre 2021** Serata a palazzo Toaldi Capra con [*"Il mistero della MateMagia"*](https://www.facebook.com/prolocoschio), a Schio.
+* **15 Ottobre 2021** Marita espone alla mostra d'arte *Ricordando San Luca, "Volto di Donna"*. 
+* **30 Novembre 2019** Quarta serata della conferenza spettacolo [*"Il mistero della matemagia"*](https://www.spettacolidimistero.it/eventi/), a Santomio di Malo.
+* **29 Novembre 2019** Marita presenta la conferenza [*"La matematica nascosta nell'arte e nella natura"*](https://thiene.citycorner.it/evento/la-matematica-nascosta-nellarte-nella-natura-conferenza-marita-dante/) nell'ambito della manifestazione [*DonnAArte*](https://www.altovicentinonline.it/attualita-2/donnaarte-a-thiene-un-gioiello-contro-il-tumore-al-seno/) a Thiene.
+* **22 Novembre 2019** Terzo incontro della conferenza spettacolo  [*"Il mistero della matemagia"*](https://www.spettacolidimistero.it/eventi/), a Malo.
 * **15 Novembre 2019** Secondo appuntamento della conferenza spettacolo  [*"Il mistero della matemagia"*](https://www.spettacolidimistero.it/eventi/), a Torrebelvicino (Vicenza).
-* **9 Novembre 2019** Marita presenta la conferenza spettacolo [*"Il mistero della matemagia"*](https://laltravicenza.it/il-veneto-tra-magia-e-matematica-con-marita-dante-a-marano/) nell'ambito del festival ["Spettacoli di Mistero"](https://www.spettacolidimistero.it).
+* **9 Novembre 2019** Marita presenta a Marano la conferenza spettacolo [*"Il mistero della matemagia"*](https://laltravicenza.it/il-veneto-tra-magia-e-matematica-con-marita-dante-a-marano/) nell'ambito del festival ["Spettacoli di Mistero"](https://www.spettacolidimistero.it).
 * **15 Giugno 2019** Marita espone alla [14ª Edizione della Biennale Internazionale per l’Incisione](http://www.acquiprint.it/index.php?lang=en)
-* **31 Maggio 2019** In mostra alla [VI Biennale di Incisione e Grafica Contemporanea](http://www.museibassano.it/mostra/biennale-2019) un'opera di Marita!
-* **10 Maggio 2019** Conferenza a Bassano
+* **31 Maggio 2019** In mostra alla [VI Biennale di Incisione e Grafica Contemporanea,](http://www.museibassano.it/mostra/biennale-2019) Città di Bassano, un'opera di Marita!
+* **10 Maggio 2019** Conferenza all'istituto tecnico economico e tecnologico “Luigi Einaudi” a Bassano del Grappa.
 * **10 Aprile 2019** Conferenza *"La matematica nascosta nell'arte e nella natura"* per l'associazione [*"Demetra Donne in Aiuto"*](http://www.demetradonne.it/chi-siamo/) a Montecchio Precalcino.
 * **21 Marzo 2019** Conferenza  *"La matematica nascosta nell'arte e nella natura"* per l'associazione [*Senior Veneto*](http://www.seniorveneto.org/) a Vicenza.
-* **07 Aprile 2017** Presentazione del libro "I monaci matematici e l'enigma del nove", nell'ambito [*Festival dell'Illusionismo "Città di Thiene"8](https://www.facebook.com/festivalmagiathiene/).
+* **29 Novembre 2018** *"MateMagia misteriosa"* a Malo.
+* **19 Ottobre 2018** Partecipazione al *'Focus Group'* del Congresso di Abano, tema l'evoluzione della magia, con l'intervento: "C'è più magia nella matematica o matematica nella magia?".
+* **29 Settembre 2018** Marita ad *"ArtWalk"*.
+* **07 Aprile 2017** Presentazione del libro "I monaci matematici e l'enigma del nove", nell'ambito [*Festival dell'Illusionismo "Città di Thiene"*](https://www.facebook.com/festivalmagiathiene/).
 
 #### Articoli su Marita Dante
 
