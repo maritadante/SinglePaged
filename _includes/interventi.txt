@@ -5,8 +5,8 @@ img/interventi/2017-04-07_Presentazione_Monaci/17966745_1347926995295004_7350771
 img/interventi/2018-10-20_Congresso_Abano_Premio_Garatti/1 134-riunione-del-club-magico-italiano.jpg | Marita riceve il premio "Garatti" al congresso del Club Magico Italiano
 img/interventi/2018-10-20_Congresso_Abano_Premio_Garatti/2 47390820_2009210625833301_6519327852121292800_o.jpg | Marita riceve il premio "Garatti" al congresso del Club Magico Italiano
 img/interventi/2018-10-20_Congresso_Abano_Premio_Garatti/2018-10-20 Attestato.jpg 
-img/interventi/2018-11-29_Conferenza_Malo / 2018-11-29 Conferenza Malo.jpg | Conferenza_Spettacolo *"Il Mistero della MateMagia"*, Malo 2018
-img/interventi/2018-11-29_Conferenza_Malo / 2018-11-29 Conferenza.JPG | Conferenza_Spettacolo *"Il Mistero della MateMagia"*
+img/interventi/2018-11-29_Conferenza_Malo /2018-11-29 Conferenza Malo.jpg | Conferenza_Spettacolo *"Il Mistero della MateMagia"*, Malo 2018
+img/interventi/2018-11-29_Conferenza_Malo /2018-11-29 Conferenza.JPG | Conferenza_Spettacolo *"Il Mistero della MateMagia"*
 img/interventi/2019-03-21_Conferenza_Senior_Veneto/1 locandina.jpg | *"La matematica nascosta nell'arte e nella natura"*, giovedì di cultura Senior Veneto
 img/interventi/2019-03-21_Conferenza_Senior_Veneto/DSC00898.JPG | *"La matematica nascosta nell'arte e nella natura"*, giovedì di cultura Senior Veneto
 img/interventi/2019-03-21_Conferenza_Senior_Veneto/DSC00902.JPG | *"La matematica nascosta nell'arte e nella natura"*, giovedì di cultura Senior Veneto
@@ -15,12 +15,8 @@ img/interventi/2019-04-10_Conferenza_Donne_Demetra_Montecchio_Precalcino/DSC0238
 img/interventi/2019-05-10_Conferenza_Bassano/DSC02609.JPG | Conferenza all'istituto tecnico economico e tecnologico “Luigi Einaudi”, Bassano del Grappa 2019
 img/interventi/2019-11-09_Matemagia_Marano/1 Locandine mistero.JPG | Ciclo di conferenze_spettacolo *"Il Mistero della MateMagia"*,  Festival del Mistero della Regione Veneto
 img/interventi/2019-11-09_Matemagia_Marano/DSC00867.JPG | Ciclo *"Il Mistero della MateMagia"*, incontro a Marano Vicentino
-img/interventi/2019-11-09_Matemagia_Marano/DSC00884.JPG | Ciclo *"Il Mistero della MateMagia"*, incontro a Marano Vicentino
 img/interventi/2019-11-15_Matemagia_Torrebelvicino/DSC00072mod.jpg | Ciclo *"Il Mistero della Matemagia"*, incontro a Torrebelvicino
-img/interventi/2019-11-15_Matemagia_Torrebelvicino/DSC00074mod.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Torrebelvicino
-img/interventi/2019-11-15_Matemagia_Torrebelvicino/DSC00082mod.jpg | Ciclo *"Il Mistero della Matemagia"*, incontro a Torrebelvicino
 img/interventi/2019-11-15_Matemagia_Torrebelvicino/DSC00100mod.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Torrebelvicino
-img/interventi/2019-11-15_Matemagia_Torrebelvicino/DSC00113mod.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Torrebelvicino
 img/interventi/2019-11-23_Matemagia_Malo/1 DSC00253.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
 img/interventi/2019-11-23_Matemagia_Malo/2 DSC00525.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
 img/interventi/2019-11-23_Matemagia_Malo/3 DSC00231.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
