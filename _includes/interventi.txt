@@ -17,12 +17,9 @@ img/interventi/2019-11-09_Matemagia_Marano/1 Locandine mistero.JPG | Ciclo di co
 img/interventi/2019-11-09_Matemagia_Marano/DSC00867.JPG | Ciclo *"Il Mistero della MateMagia"*, incontro a Marano Vicentino
 img/interventi/2019-11-15_Matemagia_Torrebelvicino/DSC00072mod.jpg | Ciclo *"Il Mistero della Matemagia"*, incontro a Torrebelvicino
 img/interventi/2019-11-15_Matemagia_Torrebelvicino/DSC00100mod.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Torrebelvicino
-img/interventi/2019-11-23_Matemagia_Malo/1 DSC00253.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
-img/interventi/2019-11-23_Matemagia_Malo/2 DSC00525.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
+img/interventi/2019-11-23_Matemagia_Malo/1 DSC00252.jpg | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
+img/interventi/2019-11-23_Matemagia_Malo/2 DSC00253.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
 img/interventi/2019-11-23_Matemagia_Malo/3 DSC00231.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
-img/interventi/2019-11-23_Matemagia_Malo/4 DSC00563.JPG | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
-img/interventi/2019-11-23_Matemagia_Malo/locandina.jpg | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
-img/interventi/2019-11-23_Matemagia_Malo/locandina2.jpg | Ciclo *"Il Mistero della Matemagia"*, incontro a Malo
 img/interventi/2019-11-23_Thiene_DonnAArte/001.jpg | *"La matematica nascosta nell'arte e nella natura"*, Thiene DonnAArte
 img/interventi/2019-11-23_Thiene_DonnAArte/DSC00352.JPG | *"La matematica nascosta nell'arte e nella natura"*, Thiene DonnAArte
 img/interventi/2019-11-23_Thiene_DonnAArte/DSC00371.JPG | *"La matematica nascosta nell'arte e nella natura"*, Thiene DonnAArte
