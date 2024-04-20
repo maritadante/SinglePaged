@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancello</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content" style="font-size: 100px">
+        <div class="loader"></div>
+    </div>
+
+    <script>
+        function do_request() {
+
+            var success = true;
+            var request_timeout = 120000;
+            var display_timeout = 3600000; // 1500;
+
+            var headers = new Headers();
+            headers.append("Authorization", "Basic aW5mb0BpbXBpYW50aXN0aWNhZ2FzcGFyaS5pdDpTaW1vbmUzMw==");
+            headers.append("Content-type", "application/json; charset=UTF-8");
+            headers.append("Accept", "application/json; charset=UTF-8");
+            headers.append("Cache-Control", "no-cache");
+
+            Promise.race([
+                //fetch('https://gateway.cardin.it/publicapi/v3/receiver/status?_=' + new Date().getTime(), {
+                fetch('https://gateway.cardin.it/publicapi/v3/receiver/activatechannel?_=' + new Date().getTime(), {
+                    method: 'POST',
+                    headers: headers,
+                    //body: atob('eyJjb250ZXh0IjoiY2FyZGluIiwic2VyaWFsS2V5IjoiMDAwMDAwMTU4MyIsInBpbiI6IjAxODUiLCJhY3RpdmVIaWdoIjp0cnVlLCJkZXZpY2VSZWFkIjpmYWxzZX0='), // status
+                    body: atob('eyJjb250ZXh0IjoiY2FyZGluIiwic2VyaWFsS2V5IjoiMDAwMDAwMTU4MyIsInBpbiI6IjAxODUiLCJjaGFubmVsIjoiQSIsImRldmljZVR5cGUiOiJSIn0='), // activatechannel
+                    cache: 'no-cache',
+                    mode: 'cors',
+                    redirect: 'follow',
+                    referrerPolicy: 'no-referrer'
+                }),
+                new Promise((resolve) => {
+                    setTimeout(() => resolve(false), request_timeout);
+                })
+            ])
+                .then(response => {
+                    if (!response.ok) throw new Error('Request failed');
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.result === 'OK' && data.data.resultCode === 'ACTIVATE_CHANNEL_OK') console.log(data);
+                    else throw new Error('Command failed');
+                })
+                .catch(error => {
+                    console.error(error);
+                    success = false;
+                })
+                .finally(() => {
+                    var result = success ? 'green">&#10004' : 'red">&#10008';
+                    content.innerHTML = '<div style="color: ' + result + ';</div>';
+                    setTimeout(() => { window.close(); }, display_timeout);
+                });
+        };
+
+        do_request();
+    </script>
+</body>
+
+</html>
