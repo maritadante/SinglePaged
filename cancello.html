@@ -40,9 +40,6 @@
         function do_request() {
 
             var success = true;
-            var request_timeout = 120000;
-            var display_timeout = 2000;
-
             var headers = new Headers();
             headers.append("Authorization", "Basic aW5mb0BpbXBpYW50aXN0aWNhZ2FzcGFyaS5pdDpTaW1vbmUzMw==");
             headers.append("Content-type", "application/json; charset=UTF-8");
@@ -50,19 +47,17 @@
             headers.append("Cache-Control", "no-cache");
 
             Promise.race([
-                //fetch('https://gateway.cardin.it/publicapi/v3/receiver/status?_=' + new Date().getTime(), {
                 fetch('https://gateway.cardin.it/publicapi/v3/receiver/activatechannel?_=' + new Date().getTime(), {
                     method: 'POST',
                     headers: headers,
-                    //body: atob('eyJjb250ZXh0IjoiY2FyZGluIiwic2VyaWFsS2V5IjoiMDAwMDAwMTU4MyIsInBpbiI6IjAxODUiLCJhY3RpdmVIaWdoIjp0cnVlLCJkZXZpY2VSZWFkIjpmYWxzZX0='), // status
-                    body: atob('eyJjb250ZXh0IjoiY2FyZGluIiwic2VyaWFsS2V5IjoiMDAwMDAwMTU4MyIsInBpbiI6IjAxODUiLCJjaGFubmVsIjoiQSIsImRldmljZVR5cGUiOiJSIn0='), // activatechannel
+                    body: atob('eyJjb250ZXh0IjoiY2FyZGluIiwic2VyaWFsS2V5IjoiMDAwMDAwMTU4MyIsInBpbiI6IjAxODUiLCJjaGFubmVsIjoiQSIsImRldmljZVR5cGUiOiJSIn0='),
                     cache: 'no-cache',
                     mode: 'cors',
                     redirect: 'follow',
                     referrerPolicy: 'no-referrer'
                 }),
                 new Promise((resolve) => {
-                    setTimeout(() => resolve(false), request_timeout);
+                    setTimeout(() => resolve(false), 120000);
                 })
             ])
                 .then(response => {
@@ -80,7 +75,6 @@
                 .finally(() => {
                     var result = success ? 'green">&#10004' : 'red">&#10008';
                     content.innerHTML = '<div style="color: ' + result + ';</div>';
-                    setTimeout(() => { window.close(); }, display_timeout);
                 });
         };
 
