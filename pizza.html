@@ -1,0 +1,1079 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Express da Angelo</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h2 {
+            color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #fff;
+            table-layout: fixed;
+
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        td:nth-child(1) {
+            width: 5%;
+        }
+        td:nth-child(2) {
+            width: 20%;
+        }
+        td:nth-child(3) {
+            width: 70%;
+        }
+        td:nth-child(4) {
+            width: 5%;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            position: sticky;
+            top: 0;
+            background-color: #f9f9f9;
+            z-index: 1000;
+            padding: 10px 0;
+            backdrop-filter: blur(5px);
+        }
+        .header-container h1 {
+            margin: 0;
+        }
+
+        .header-container .search-bar {
+            width: 30%;
+        }
+
+        .header-container .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+
+<script>
+
+    function filterTable() {
+        const query = document.getElementById('search-input').value.toLowerCase();
+        const tables = document.querySelectorAll('table');
+        const headers = document.querySelectorAll('h2');
+        let hasVisibleRows = false;
+
+        tables.forEach((table, index) => {
+            const rows = table.querySelectorAll('tbody tr');
+            let tableHasVisibleRows = false;
+
+            rows.forEach(row => {
+                const nome = row.cells[1].textContent.toLowerCase();
+                const ingredienti = row.cells[2].textContent.toLowerCase();
+                if (nome.includes(query) || ingredienti.includes(query)) {
+                    row.style.display = '';
+                    tableHasVisibleRows = true;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            table.style.display = tableHasVisibleRows ? '' : 'none';
+            headers[index].style.display = tableHasVisibleRows ? '' : 'none';
+            if (tableHasVisibleRows) hasVisibleRows = true;
+        });
+
+        if (!hasVisibleRows) {
+            document.getElementById('no-results').style.display = 'block';
+        } else {
+            document.getElementById('no-results').style.display = 'none';
+        }
+    }
+
+    document.addEventListener('keydown', function (event) {
+        const searchInput = document.getElementById('search-input');
+        if (event.target.tagName !== 'INPUT' && event.target.tagName !== 'TEXTAREA') {
+            searchInput.focus();
+        }
+    });
+
+    function clearSearch() {
+        const searchInput = document.getElementById('search-input');
+        searchInput.value = '';
+        filterTable(); // Reset the table
+    }
+
+</script>
+
+</head>
+<body>
+
+    <div class="header-container">
+        <h1>Pizza Express da Angelo</h1>
+        <div class="search-bar" style="position: relative;">
+            <input type="text" id="search-input" onkeyup="filterTable()" placeholder="Cerca...">
+            <button type="button" onclick="clearSearch()" style="
+                position: absolute;
+                right: -10px;
+                top: 50%;
+                transform: translateY(-50%);
+                border: none;
+                background: none;
+                color: #888;
+                font-size: 20px;
+                cursor: pointer;
+            ">&times;</button>
+        </div>
+    </div>
+
+    <div id="no-results" style="display: none; color: red; font-style: italic; margin-top: 10px;">
+        Nessun risultato.
+    </div>
+
+    <h2></h2>
+
+    <table>
+
+        <tbody>
+    
+            <tr>
+                <td>1</td>
+                <td>Ciclista (Focaccia)</td>
+                <td>Olio, origano, rosmarino</td>
+                <td>3.0</td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td>Marinara</td>
+                <td>Pomodoro, aglio, olio, origano</td>
+                <td>4.0</td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td>Margherita</td>
+                <td>Pomodoro, mozzarella</td>
+                <td>5.0</td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td>Romana</td>
+                <td>Pomodoro, mozzarella, acciughe</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td>Occhio Di Bue</td>
+                <td>Pomodoro, mozzarella, uovo</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td>Pugliese</td>
+                <td>Pomodoro, mozzarella, cipolla</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td>Prosciutto</td>
+                <td>Pomodoro, mozzarella, prosciutto</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td>Funghi</td>
+                <td>Pomodoro, mozzarella, funghi</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td>Viennese</td>
+                <td>Pomodoro, mozzarella, wurstel</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td>Cynar</td>
+                <td>Pomodoro, mozzarella, carciofi</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>11</td>
+                <td>Diavola</td>
+                <td>Pomodoro, mozzarella, salame piccante</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>12</td>
+                <td>Asparagi</td>
+                <td>Pomodoro, mozzarella, asparagi</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>13</td>
+                <td>Gorgonzola</td>
+                <td>Pomodoro, mozzarella, gorgonzola</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>14</td>
+                <td>Tonno</td>
+                <td>Pomodoro, mozzarella, tonno</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>15</td>
+                <td>Peperoni</td>
+                <td>Pomodoro, mozzarella, peperoni</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>16</td>
+                <td>Melanzane</td>
+                <td>Pomodoro, mozzarella, melanzane</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>17</td>
+                <td>Asparagi e Uovo</td>
+                <td>Pomodoro, mozzarella, asparagi e uova</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>18</td>
+                <td>Napoletana</td>
+                <td>Pomodoro, mozzarella, acciughe e capperi</td>
+                <td>6.5</td>
+            </tr>
+        
+            <tr>
+                <td>19</td>
+                <td>Siciliana</td>
+                <td>Pomodoro, mozzarella, acciughe capperi e olive</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>20</td>
+                <td>Sorrentina</td>
+                <td>Pomodoro, mozzarella, prosciutto e cipolla</td>
+                <td>6.5</td>
+            </tr>
+        
+            <tr>
+                <td>21</td>
+                <td>Prosciutto e Funghi</td>
+                <td>Pomodoro, mozzarella, prosciutto e funghi</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>22</td>
+                <td>Speck e Asparagi</td>
+                <td>Pomodoro, mozzarella, speck e asparagi</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>23</td>
+                <td>Speck e Gorgonzola</td>
+                <td>Pomodoro, mozzarella, speck e gorgonzola</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>24</td>
+                <td>4 Formaggi</td>
+                <td>Pomodoro, mozzarella, asiago, gorgonzola e grana</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>25</td>
+                <td>Spinaci e Ricotta</td>
+                <td>Pomodoro, mozzarella, spinaci e ricotta</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>26</td>
+                <td>Tonno e Piselli</td>
+                <td>Pomodoro, mozzarella, tonno e piselli</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>27</td>
+                <td>Tonno e Cipolla</td>
+                <td>Pomodoro, mozzarella, tonno e cipolla</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>28</td>
+                <td>Tonno e Peperoni</td>
+                <td>Pomodoro, mozzarella, tonno e peperoni</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>29</td>
+                <td>Zucchine</td>
+                <td>Pomodoro, mozzarella, zucchine</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>30</td>
+                <td>Altopiano</td>
+                <td>Pomodoro, mozzarella, asiago e pancetta stufata</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>31</td>
+                <td>Asiago e Sopressa</td>
+                <td>Pomodoro, mozzarella, asiago e sopressa</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>32</td>
+                <td>Misto Bosco</td>
+                <td>Pomodoro, mozzarella, misto funghi</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>33</td>
+                <td>Radicchio</td>
+                <td>Pomodoro, mozzarella, radicchio</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>34</td>
+                <td>Mediterranea</td>
+                <td>Pomodoro, mozzarella, pomodorini</td>
+                <td>6.5</td>
+            </tr>
+        
+            <tr>
+                <td>35</td>
+                <td>Estate</td>
+                <td>Pomodoro, mozzarella, pomodoro a fette, grana e basilico</td>
+                <td>6.5</td>
+            </tr>
+        
+            <tr>
+                <td>36</td>
+                <td>Rucola Grana</td>
+                <td>Pomodoro, mozzarella, rucola e grana</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>37</td>
+                <td>Chiodini</td>
+                <td>Pomodoro, mozzarella, chiodini</td>
+                <td>6.5</td>
+            </tr>
+        
+            <tr>
+                <td>38</td>
+                <td>Capricciosa</td>
+                <td>Pomodoro, mozzarella, prosciutto, funghi, carciofi e salame piccante</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>39</td>
+                <td>4 Stagioni</td>
+                <td>Pomodoro, mozzarella, prosciutto, funghi, carciofi e salame piccante</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>40</td>
+                <td>Atomica</td>
+                <td>Pomodoro, mozzarella, prosciutto, funghi, salame e peperoni</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>41</td>
+                <td>Calzone</td>
+                <td>Pomodoro, mozzarella, prosciutto, funghi e carciofi</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>42</td>
+                <td>Boscaiola</td>
+                <td>Pomodoro, mozzarella, misto bosco e porchetta</td>
+                <td>8.5</td>
+            </tr>
+        
+            <tr>
+                <td>43</td>
+                <td>Porcini</td>
+                <td>Pomodoro, mozzarella e porcini</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>44</td>
+                <td>Radicchio e Pancetta</td>
+                <td>Pomodoro, mozzarella, radicchio e pancetta</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>45</td>
+                <td>Radicchio e Salsiccia</td>
+                <td>Pomodoro, mozzarella, radicchio e salsiccia</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>46</td>
+                <td>Rucola e Provola</td>
+                <td>Pomodoro, mozzarella, rucola e provola</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>47</td>
+                <td>Rucola e Stracchino</td>
+                <td>Pomodoro, mozzarella, rucola e stracchino</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>48</td>
+                <td>Rucola e Brie</td>
+                <td>Pomodoro, mozzarella, rucola e brie</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>49</td>
+                <td>Perugina</td>
+                <td>Pomodoro, mozzarella, panna e crudo</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>50</td>
+                <td>Inglesina</td>
+                <td>Pomodoro, mozzarella, panna e speck</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>51</td>
+                <td>Norvegese</td>
+                <td>Pomodoro, mozzarella, salmone</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>52</td>
+                <td>Speck</td>
+                <td>Pomodoro, mozzarella, speck</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>53</td>
+                <td>Crudo</td>
+                <td>Pomodoro, mozzarella, crudo</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>54</td>
+                <td>Stupida</td>
+                <td>Pomodoro, mozzarella, prosciutto, funghi, salame e wurstel</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>55</td>
+                <td>Rustica</td>
+                <td>Pomodoro, mozzarella, pancetta, piselli e uovo</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>56</td>
+                <td>Bri Bre</td>
+                <td>Pomodoro, mozzarella, brie e bresaola</td>
+                <td>8.5</td>
+            </tr>
+        
+            <tr>
+                <td>57</td>
+                <td>Carbonara</td>
+                <td>Pomodoro, mozzarella, uovo, pancetta cubettata e grana</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>58</td>
+                <td>Capo Di Monte</td>
+                <td>Pomodoro, mozzarella, ricotta, porcini, salame piccante, pepe, grana e basilico</td>
+                <td>8.5</td>
+            </tr>
+        
+            <tr>
+                <td>59</td>
+                <td>Otto Gusti</td>
+                <td>Otto gusti a piacere del pizzaiolo</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>60</td>
+                <td>Gamberetti</td>
+                <td>Pomodoro, mozzarella, gamberetti</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>61</td>
+                <td>Porcazzi</td>
+                <td>Pomodoro, mozzarella, gorgonzola, acciughe, salame e olio piccante</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>62</td>
+                <td>Argentina</td>
+                <td>Pomodoro, mozzarella, salame, olive, prosciutto, funghi, acciughe e capperi</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>63</td>
+                <td>Express</td>
+                <td>Pomodoro, mozzarella, porcini, cipolla, grana, pancetta e crema di formaggi</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>64</td>
+                <td>Papillon</td>
+                <td>A gusto del pizzaiolo</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>65</td>
+                <td>Verdure</td>
+                <td>Pomodoro, mozzarella, melanzane, zucchine, pomodorini, spinaci, peperoni, funghi, carciofi, cipolla e asparagi</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>66</td>
+                <td>D.O.C.</td>
+                <td>Pomodorini, mozzarella di bufala e basilico</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>67</td>
+                <td>Rucola e Bresaola</td>
+                <td>Pomodoro, mozzarella, rucola e bresaola</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>68</td>
+                <td>Messicana</td>
+                <td>Pomodoro, mozzarella, fagioli, cipolla, peperoncino e salsiccia</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>69</td>
+                <td>Melanzane e Zucchine</td>
+                <td>Pomodoro, mozzarella, melanzane e zucchine</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>70</td>
+                <td>Agerolina</td>
+                <td>Pomodoro, mozzarella, pomodorini, provola e rucola</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>71</td>
+                <td>Salsiccia Completa</td>
+                <td>Pomodoro, mozzarella, cipolla, peperoni e salsiccia</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>72</td>
+                <td>Zingara</td>
+                <td>Pomodoro, mozzarella, funghi, carciofi, olive e peperoni</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>73</td>
+                <td>Genovese</td>
+                <td>Pomodoro, mozzarella, fagioli, patate lesse, grana e pesto</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>74</td>
+                <td>Porcini e Bresaola</td>
+                <td>Pomodoro, mozzarella, porcini e bresaola</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>75</td>
+                <td>Patate e Salsiccia</td>
+                <td>Pomodoro, mozzarella, patate fritte e salsiccia</td>
+                <td>7.5</td>
+            </tr>
+        
+            <tr>
+                <td>76</td>
+                <td>Bianca</td>
+                <td>Mozzarella, stracchino e mortadella</td>
+                <td>6.5</td>
+            </tr>
+        
+            <tr>
+                <td>77</td>
+                <td>Peperoni Alla Griglia Porchetta</td>
+                <td>Pomodoro, mozzarella, peperoni alla griglia e porchetta</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>78</td>
+                <td>Rucola e Gamberetti</td>
+                <td>Pomodoro, mozzarella, rucola e gamberetti</td>
+                <td>8.5</td>
+            </tr>
+        
+            <tr>
+                <td>79</td>
+                <td>Funghi Freschi Salsiccia</td>
+                <td>Pomodoro, mozzarella, funghi freschi e salsiccia</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>80</td>
+                <td>Verdure Grigliate</td>
+                <td>Pomodoro, mozzarella, melanzane, zucchine e peperoni grigliati</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>81</td>
+                <td>Gennarino</td>
+                <td>Pomodoro, mozzarella, melanzane sott'olio e salame piccante</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>82</td>
+                <td>Porcellina</td>
+                <td>Pomodoro, mozzarella, salsiccia, porchetta e porcini</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>83</td>
+                <td>Flora</td>
+                <td>Mozzarella, stracchino, noci e crudo</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>84</td>
+                <td>Philadelphia</td>
+                <td>Pomomodoro, mozzarella, philadelphia e rucola</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>85</td>
+                <td>Furore</td>
+                <td>Pomomodoro, mozzarella, salame, chiodini e prosciutto</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>86</td>
+                <td>Frutti Di Mare</td>
+                <td>Pomodoro, mozzarella, frutti di mare</td>
+                <td>8.5</td>
+            </tr>
+        
+        </tbody>
+    </table>
+    
+    <h2>Pizze Gourmet</h2>
+
+    <table>
+        <tbody>
+    
+            <tr>
+                <td>99</td>
+                <td>Margherita Regina</td>
+                <td>Pomodori pelati, fior di latte napoli, basilico</td>
+                <td>6.0</td>
+            </tr>
+        
+            <tr>
+                <td>100</td>
+                <td>Cetara</td>
+                <td>Pomodori pelati, fior di latte napoli, basilico, origano, alici di cetara e pomodorino rosso del piennolo del vesuvio d.o.p.</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>101</td>
+                <td>Sud</td>
+                <td>Fior di latte napoli, pomodorino giallo del vesuvio, friarielli, salsiccia</td>
+                <td>10.0</td>
+            </tr>
+        
+            <tr>
+                <td>102</td>
+                <td>Spilinga</td>
+                <td>Fior di latte napoli, cipolla rossa di tropea, olive taggiasche, nduja di spilinga</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>103</td>
+                <td>Vesuvio</td>
+                <td>Fior di latte napoli, pomodorino rosso del piennolo del vesuvio d.o.p., gamberi argentini, granelle</td>
+                <td>nan</td>
+            </tr>
+        
+            <tr>
+                <td>104</td>
+                <td>Bronte</td>
+                <td>Fior di latte napoli, pesto di pistacchi di bronte i.g.p., doppia crema, mortadella bologna i.g.p., granella di pistacchi e scorza di limone</td>
+                <td>nan</td>
+            </tr>
+        
+            <tr>
+                <td>105</td>
+                <td>Francesco</td>
+                <td>Pomodori pelati, fior di latte napoli, friarielli, oro del vesuvio, spianiata calabra, pomodorino rosso del piennolo del vesuvio d.o.p.</td>
+                <td>nan</td>
+            </tr>
+        
+            <tr>
+                <td>106</td>
+                <td>Raffaele</td>
+                <td>Fior di latte napoli, lardo di montagnana, rosmarino e gocce di miele di castagna</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>107</td>
+                <td>Anna</td>
+                <td>Pomodori pelati, mozzarella di bufala campana d.o.p., prosciutto crudo senese di montagnana d.o.p.</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>108</td>
+                <td>Nicola</td>
+                <td>Pomodori pelati, fior di latte napoli, cipolla rossa di tropea e filetti di tonno di cetara</td>
+                <td>9.0</td>
+            </tr>
+        
+        </tbody>
+    </table>
+    <h2>Pizze Novità</h2>
+
+    <table>
+        <tbody>
+    
+            <tr>
+                <td>87</td>
+                <td>Friariella</td>
+                <td>Mozzarella, salsiccia, friarelli</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>88</td>
+                <td>Snoopy</td>
+                <td>Mozzarella, prosciutto, ananas</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>89</td>
+                <td>Bomba</td>
+                <td>Pomodoro, mozzarella, peperoni alla brace, salsiccia e salame</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>90</td>
+                <td>Disgraziata</td>
+                <td>Pomodoro, mozzarella, porcini, grana, wurstel e salame, piccante</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>91</td>
+                <td>Primo Amore</td>
+                <td>Pomodoro, mozzarella, pomodorini, bufala e rucola fine cottura</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>92</td>
+                <td>Girasole</td>
+                <td>Pomodoro, mozzarella, mais, rucola e scaglie di grana</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>93</td>
+                <td>Magg's</td>
+                <td>Pomodoro, mozzarella, asiago, gorgonzola, grana, brie e stracchino</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>94</td>
+                <td>Amalfi</td>
+                <td>Pomodoro, mozzarella, pomodorini, gamberetti e rucola</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>95</td>
+                <td>Tartufata</td>
+                <td>Crema di tartufo, panna, mozzarella e crudo</td>
+                <td>8.5</td>
+            </tr>
+        
+            <tr>
+                <td>96</td>
+                <td>Crudaiola</td>
+                <td>Pomodoro, mozzarella, crudo, rucola e grana</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>97</td>
+                <td>Sorrento</td>
+                <td>Pomodoro, mozzarella, chiodini, gorgonzola e salame piccante</td>
+                <td>8.5</td>
+            </tr>
+        
+            <tr>
+                <td>98</td>
+                <td>Positana</td>
+                <td>Pomodoro, mozzarella, gamberetti e polpa di granchio</td>
+                <td>9.0</td>
+            </tr>
+        
+        </tbody>
+    </table>
+    <h2>Pizze Speciali</h2>
+
+    <table>
+        <tbody>
+    
+            <tr>
+                <td>109</td>
+                <td>Burrata</td>
+                <td>Pomodori pelati, burrata (fine cottura), crudo (fine cottura)</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>110</td>
+                <td>Deye</td>
+                <td>Pomodori pelati, mozzarella, chiodini, salsiccia, provola</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>111</td>
+                <td>La Zucca</td>
+                <td>Bianca, mozzarella, crema di zucca, brie, noci</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>112</td>
+                <td>Peppa Pig</td>
+                <td>Bianca, mozzarella, pesto, salsiccia, pomodorini</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>113</td>
+                <td>Lardiata</td>
+                <td>Pomodori pelati, mozzarella, pomodorini, lardo</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>114</td>
+                <td>Delicata</td>
+                <td>Pomodori pelati, mozzarella, salmone, gamberetti, philadelphia, rucola</td>
+                <td>10.0</td>
+            </tr>
+        
+            <tr>
+                <td>115</td>
+                <td>Gustosa</td>
+                <td>Pomodori pelati, mozzarella, salmone, pomodori secchi, lardo (dopo cottura)</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>116</td>
+                <td>Tony</td>
+                <td>Pomodori pelati, mozzarella, salmone, salsiccia, gorgonzola, cipolla, pancetta</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>117</td>
+                <td>Squisita</td>
+                <td>Bianca, mozzarella, mortadella, philadelphia, melanzane sott'olio</td>
+                <td>7.0</td>
+            </tr>
+        
+            <tr>
+                <td>118</td>
+                <td>Mirko</td>
+                <td>Bianca, mozzarella, zucchine, gamberetti, stracchino</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>119</td>
+                <td>Desiree</td>
+                <td>Pomodoro, mozzarella, bacon, uovo, cipolla, provola</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>120</td>
+                <td>Meravigliosa</td>
+                <td>Mozzarella, speck, gorgonzola, noci</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>121</td>
+                <td>Micky</td>
+                <td>Fior di latte, speck, crema di radicchio, scaglie di grana</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>122</td>
+                <td>Gilda</td>
+                <td>Pomodoro, mozzarella, fior di latte, sfilacci di cavallo, pomodorini, rucola</td>
+                <td>8.5</td>
+            </tr>
+        
+            <tr>
+                <td>123</td>
+                <td>Mari e Monti</td>
+                <td>Pomodoro, mozzarella, frutti di mare, misto bosco</td>
+                <td>9.0</td>
+            </tr>
+        
+            <tr>
+                <td>124</td>
+                <td>Ufo</td>
+                <td>Pomodoro, mozzarella, prosciutto, uovo, peperoni, salamino</td>
+                <td>8.0</td>
+            </tr>
+        
+            <tr>
+                <td>125</td>
+                <td>Speciale</td>
+                <td>Pomodoro, mozzarella, porcini, salamino, provola, salsiccia</td>
+                <td>10.0</td>
+            </tr>
+        
+        </tbody>
+    </table>
+
+    <footer style="margin-top: 30px; text-align: center; font-size: 0.9em; color: #555;">
+        <p>Viale della Pace 24, 36100 Vicenza</p>
+        <p>Telefono: <a href="tel:0444504060">0444 504060</a></p>
+    </footer>
+
+</body>
+</html>
