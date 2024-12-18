@@ -88,7 +88,7 @@
                 <tr>
                     <td>Totale</td>
                     <td>1000</td>
-                    <td id="total-cost">0.00</td>
+                    <td id="total-cost">1000.00</td>
                 </tr>
             </tfoot>
         </table>
@@ -111,13 +111,10 @@
 
         function updateTable() {
             const amount = parseFloat(amountInput.value) || 0;
-            tableBody.innerHTML = '';
 
-            let totalCost = 0;
+            tableBody.innerHTML = '';
             ownershipQuotas.forEach(({ name, quota }) => {
                 const cost = (amount * quota / 1000.).toFixed(2);
-                totalCost += parseFloat(cost);
-
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${name}</td>
